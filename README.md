@@ -36,6 +36,10 @@ Business Insight Extraction
 
 Dataset taken from Kaggle and transformed for analysis purposes.
 
+Sample dashboard 
+<img width="953" height="735" alt="Screenshot 2026-05-24 201138" src="https://github.com/user-attachments/assets/1c95b578-9fb1-45ee-83f5-627d27db6b17" />
+
+
 👨‍💻 Author
 
 Vansh Thakur
