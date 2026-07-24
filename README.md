@@ -19,7 +19,11 @@ This project demonstrates end-to-end data analysis: collecting raw data from Kag
 5. **Visualization** – Designed 5 interactive charts and KPI cards for the dashboard
 6. **Analysis** – Extracted key trends and insights from the data
 
----
+--- 
+
+<img width="418" height="327" alt="Screenshot 2026-07-24 161645" src="https://github.com/user-attachments/assets/d52a4c24-5ac7-4880-a1b0-38c9c8111374" />
+
+
 
 ## 📊 Dashboard Components
 
@@ -29,11 +33,15 @@ This project demonstrates end-to-end data analysis: collecting raw data from Kag
 - **Ocean Waste Contribution:** 1.40% of total waste
 
 ### Five Core Visualizations
+img width="891" height="685" alt="Screenshot 2026-05-24 174912" src="https://github.com/user-attachments/assets/598bd35a-ad67-473e-b867-4b70ff80a15a" />
 
 **1. Waste Recycling Trend Over Time (Scatter Plot)**
 - Shows recycling rate growth from 2.3% (2000) to 4.5% (2019)
 - Consistent upward trend demonstrates policy improvements
 - However, absolute percentages remain critically low
+
+
+<img width="469" height="343" alt="Screenshot 2026-07-24 161628" src="https://github.com/user-attachments/assets/662b0aa6-5e04-4e84-8039-8367cdeb472a" />
 
 **2. Plastic Emissions by Country (Horizontal Bar Chart)**
 - Philippines: 37% of global plastic ocean emissions
@@ -41,10 +49,14 @@ This project demonstrates end-to-end data analysis: collecting raw data from Kag
 - Africa, China, Malaysia: 8% each
 - Reveals geographic concentration of ocean pollution in South and Southeast Asia
 
+  <img width="571" height="272" alt="Screenshot 2026-07-24 161612" src="https://github.com/user-attachments/assets/4c946b41-6ecb-4633-88fa-bd5c223b4d94" />
+
 **3. Waste Treatment Comparison (Dual Bar Charts)**
 - Incineration: Europe leads (500+ units), USA and China follow
 - Recycling: India and China rank highest, but rates remain low across all regions
 - Demonstrates disparities in waste management infrastructure globally
+
+ <img width="564" height="294" alt="Screenshot 2026-07-24 161519" src="https://github.com/user-attachments/assets/abf89981-fe7e-4d9e-a256-0c4606f83648" />
 
 **4. Landfill Trend Over Years (Line Chart)**
 - 2000: 457 units landfilled
