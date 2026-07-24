@@ -1,73 +1,130 @@
-Power BI Dashboard Project 📊
+# Plastic & Waste Management Dashboard
 
-This project is a Power BI dashboard created using datasets collected from Kaggle.
-The main goal of this project was to clean, transform, model, and visualize raw data to generate meaningful insights.
+A Power BI dashboard analyzing global plastic production, waste management practices, and ocean emissions from 2000 to 2019, built using Kaggle datasets.
 
-🚀 Project Workflow
-Collected dataset from Kaggle
-Combined multiple data files into a single dataset
-Performed basic data cleaning and transformation
-Created data models in Power BI
-Built interactive dashboards and visualizations
-Extracted useful insights from the data
-🛠 Tools & Technologies Used
-Power BI
-SQL
-Excel / CSV
-Data Cleaning
-Data Modeling
-Data Visualization
-📈 Dashboard Features
-Interactive visualizations
-KPI tracking
-Trend analysis
-Clean dashboard design
-Insight extraction from raw data
-📚 What I Learned
+---
 
-Through this project, I improved my skills in:
+## 📋 Project Overview
 
-Data Cleaning 
-EDA 
-Power BI Visualization
-Data Modeling
-Dashboard Designing
-Business Insight Extraction
-📌 Dataset Source
+This project demonstrates end-to-end data analysis: collecting raw data from Kaggle, cleaning and transforming it, building a data model, and creating interactive visualizations to extract actionable insights about waste management trends globally.
 
-Dataset taken from Kaggle and transformed for analysis purposes.
- some insights are given below  :
- 📊 Visualizations
+---
 
+## 🔄 Methodology (What I Did)
 
-<img width="418" height="327" alt="Screenshot 2026-07-24 161645" src="https://github.com/user-attachments/assets/934d0660-8178-4266-85ed-70ea50d9dee8" />
+1. **Data Collection** – Downloaded multiple CSV files from Kaggle covering waste statistics, plastic production, and recycling rates by country
+2. **Data Cleaning** – Handled missing values, standardized country names, and validated data quality
+3. **Data Transformation** – Organized and aggregated data using SQL for the Power BI model
+4. **Data Modeling** – Created relationships between tables and built a structured dimensional model
+5. **Visualization** – Designed 5 interactive charts and KPI cards for the dashboard
+6. **Analysis** – Extracted key trends and insights from the data
 
-1. Waste Recycling Trend Over Time
-   - Scatter Plot
-   - Shows year-wise increase in recycling rate.
+---
 
+## 📊 Dashboard Components
 
-<img width="571" height="272" alt="Screenshot 2026-07-24 161612" src="https://github.com/user-attachments/assets/175aa950-63f1-4cae-81f0-4f55e40ded9e" />
+### Key Performance Indicators (Top Section)
+- **Plastic Produced:** 9 billion tons (globally, 2000–2019)
+- **Maximum Recycled Rate:** 1.30% 
+- **Ocean Waste Contribution:** 1.40% of total waste
 
-2. Waste Incineration vs Recycling
-   - Horizontal Bar Charts
-   - Compares waste treatment methods across regions.
+### Five Core Visualizations
 
-<img width="469" height="343" alt="Screenshot 2026-07-24 161628" src="https://github.com/user-attachments/assets/c561696c-be5f-4ca6-b11d-737c70429f52" />
+**1. Waste Recycling Trend Over Time (Scatter Plot)**
+- Shows recycling rate growth from 2.3% (2000) to 4.5% (2019)
+- Consistent upward trend demonstrates policy improvements
+- However, absolute percentages remain critically low
 
-3. Plastic Emissions to Oceans
-   - Horizontal Bar Chart
-   - Highlights major contributors to marine plastic pollution.
+**2. Plastic Emissions by Country (Horizontal Bar Chart)**
+- Philippines: 37% of global plastic ocean emissions
+- India: 15%
+- Africa, China, Malaysia: 8% each
+- Reveals geographic concentration of ocean pollution in South and Southeast Asia
 
+**3. Waste Treatment Comparison (Dual Bar Charts)**
+- Incineration: Europe leads (500+ units), USA and China follow
+- Recycling: India and China rank highest, but rates remain low across all regions
+- Demonstrates disparities in waste management infrastructure globally
 
-    <img width="564" height="294" alt="Screenshot 2026-07-24 161519" src="https://github.com/user-attachments/assets/6ecdb951-5300-41fd-8c45-7997053c8e75" />
+**4. Landfill Trend Over Years (Line Chart)**
+- 2000: 457 units landfilled
+- 2017: 447 units (8-year decline)
+- 2019: 448 units (trend reversal)
+- Indicates stalled progress in reducing landfill dependency
 
-4. : Year-wise trend of total waste landfilled, showing a gradual reduction in landfill dependency from 2000 to 2019, with a slight rise in the final year. 
+**5. Year Filter**
+- Dynamic slicer enabling year-wise data exploration and trend analysis
 
-Sample dashboard 
-<img width="953" height="735" alt="Screenshot 2026-05-24 201138" src="https://github.com/user-attachments/assets/1c95b578-9fb1-45ee-83f5-627d27db6b17" />
+---
 
+## 💡 Key Insights
 
-👨‍💻 Author
+### Insight #1: Production-Recycling Gap Widening
+- Plastic production increased from 200M tons (2000) to 450M tons (2020)
+- Recycling rate remains under 1.3% globally
+- Growth gap: production increases at 10–15% annually; recycling at 0.1–0.15%
+- **Implication:** Current recycling systems are insufficient for global waste volumes
+
+### Insight #2: Ocean Pollution Concentrated in Developing Regions
+- Philippines, India, and African countries account for majority of ocean plastic
+- Indicates weak waste management infrastructure in developing nations
+- Suggests need for targeted intervention and technology transfer
+
+### Insight #3: Incineration Not Sustainable Solution
+- Europe prioritizes incineration (500+ units) over recycling
+- Reduces landfill but increases carbon emissions
+- More sustainable approach requires improved recycling infrastructure
+
+### Insight #4: Landfill Reduction Plateau
+- Steady decline 2000–2017 shows policy effectiveness
+- Reversal 2017–2019 suggests reduced governmental focus or capacity constraints
+- Progress is not permanent without sustained enforcement
+
+### Insight #5: Recycling Growth Rate Insufficient
+- Annual recycling rate increase: 0.1–0.15%
+- At current rate, global recycling would reach only 2–3% by 2050
+- Requires systemic changes, not incremental improvements
+
+---
+
+## 🛠 Technical Stack
+
+| Component | Technology |
+|-----------|-----------|
+| Visualization | Power BI |
+| Data Transformation | SQL |
+| Data Cleaning | Excel, SQL |
+| Calculations | DAX |
+| Data Source | Kaggle |
+
+---
+
+## 📁 Project Structure
+
+```
+Plastic-Waste-Management-Dashboard/
+├── Dashboard (.pbix file)
+├── Visualizations (5 screenshots)
+├── Raw Data (CSV files from Kaggle)
+├── Data Cleaning Queries (SQL)
+└── Documentation
+```
+
+---
+
+## ✅ Skills Developed
+
+- **Data Cleaning & Transformation:** Standardization, missing value handling, data validation
+- **SQL:** Aggregation queries, joins, data organization
+- **Power BI:** Dashboard design, DAX calculations, interactive filtering
+- **Data Analysis:** Trend identification, comparative analysis, insight extraction
+- **Data Visualization:** Chart selection, visual hierarchy, dashboard layout
+
+---
+
+## 📌 Summary
+
+This project demonstrates proficiency in converting raw data into actionable business intelligence. Through systematic data processing and interactive visualization, the dashboard reveals critical gaps in global waste management and highlights regions requiring immediate intervention.
+
 
 Vansh Thakur
