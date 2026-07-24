@@ -21,7 +21,8 @@ This project demonstrates end-to-end data analysis: collecting raw data from Kag
 
 --- 
 
-<img width="418" height="327" alt="Screenshot 2026-07-24 161645" src="https://github.com/user-attachments/assets/d52a4c24-5ac7-4880-a1b0-38c9c8111374" />
+<img width="891" height="685" alt="Screenshot 2026-05-24 174912" src="https://github.com/user-attachments/assets/4f1d3a50-b6b3-43a3-9e9e-17b7b89921de" />
+
 
 
 
@@ -33,7 +34,8 @@ This project demonstrates end-to-end data analysis: collecting raw data from Kag
 - **Ocean Waste Contribution:** 1.40% of total waste
 
 ### Five Core Visualizations
-img width="891" height="685" alt="Screenshot 2026-05-24 174912" src="https://github.com/user-attachments/assets/598bd35a-ad67-473e-b867-4b70ff80a15a" />
+ 
+ <img width="891" height="685" alt="Screenshot 2026-05-24 174912" src="https://github.com/user-attachments/assets/598bd35a-ad67-473e-b867-4b70ff80a15a" />
 
 **1. Waste Recycling Trend Over Time (Scatter Plot)**
 - Shows recycling rate growth from 2.3% (2000) to 4.5% (2019)
